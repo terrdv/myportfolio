@@ -1,10 +1,176 @@
-#root {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* AboutMe.css - Clean Minimalist Styles */
 
-
-
-
+.abt {
+    min-height: 100vh;
+    background-color: var(--background-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    animation: slideDown 0.8s ease-out;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border-color);
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .pic:hover {
+    transform: scale(1.03);
+    border-color: var(--primary-color);
+  }
+  
+  .head h2 {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+    text-align: center;
+  }
+  
+  .text {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2.5rem;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: var(--shadow);
+    animation: slideUp 0.6s ease-out 0.2s both;
+    transition: all 0.3s ease;
+  }
+  
+  .tdvheader {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 1.5rem 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .tdvheader::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+  }
+  
+  .text p {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .abt {
+      padding: 1rem;
+    }
+    
+    .pic {
+      width: 140px;
+      height: 140px;
+    }
+    
+    .head h2 {
+      font-size: 2rem;
+    }
+    
+    .text {
+      padding: 2rem;
+      margin: 0 1rem;
+    }
+    
+    .tdvheader {
+      font-size: 1.6rem;
+    }
+    
+    .text p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pic {
+      width: 120px;
+      height: 120px;
+    }
+    
+    .head h2 {
+      font-size: 1.8rem;
+    }
+    
+    .text {
+      padding: 1.5rem;
+      border-radius: 16px;
+    }
+    
+    .tdvheader {
+      font-size: 1.4rem;
+    }
+    
+    .text p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Additional hover effects */
+  .text:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+  }
+  
+  /* Smooth scrolling enhancement */
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
