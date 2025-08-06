@@ -262,3 +262,10 @@
   .navbar * {
     box-sizing: border-box;
   }
+
+  .navigate {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-self: center;
+  }
