@@ -1,0 +1,71 @@
+.projects-page {
+    min-height: 100vh;
+    background-color: var(--background-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.projects-page h1 {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 1.5rem 0;
+    text-align: center;
+    animation: slideDown 0.8s ease-out;
+}
+
+.projects-intro {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 3rem auto;
+    font-weight: 400;
+    text-align: center;
+    animation: slideDown 0.8s ease-out 0.2s both;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-page {
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+    
+    .projects-page h1 {
+        font-size: 2rem;
+    }
+    
+    .projects-intro {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-page h1 {
+        font-size: 1.8rem;
+    }
+    
+    .projects-intro {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
