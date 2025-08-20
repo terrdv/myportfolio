@@ -5,7 +5,7 @@ function Projects() {
     // Sample project data - you can replace this with your actual projects
     const projects = [
         {
-            image: "/images/td.jpeg", // Using your existing image as placeholder
+            image: "/images/val.webp", // Using your existing image as placeholder
             title: "VCT Match Predictor",
                 description: "A full-stack VCT match predictor built with React and Vite. Features smooth navigation, project showcase, and clean design.",
                 languages: [
@@ -31,7 +31,7 @@ function Projects() {
             ]
         },
         {
-            image: "/images/td.jpeg", // Using your existing image as placeholder
+            image: "/images/image.webp", // Using your existing image as placeholder
             title: "Portfolio Website",
             description: "A modern, responsive portfolio website built with React and Vite. Features smooth navigation, project showcase, and clean design.",
             languages: [
