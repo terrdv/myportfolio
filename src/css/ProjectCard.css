@@ -48,7 +48,6 @@
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
-    color: var(--text-primary);
     margin: 0 0 1.5rem 0;
     text-align: center;
     position: relative;
@@ -65,6 +64,41 @@
     height: 2px;
     background-color: var(--primary-color);
     border-radius: 2px;
+}
+
+.project-title-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.project-title-link:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.project-title-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    animation: expandLine 0.3s ease forwards;
+}
+
+@keyframes expandLine {
+    0% {
+        width: 40px;
+    }
+    100% {
+        width: 60px;
+    }
 }
 
 .project-description {

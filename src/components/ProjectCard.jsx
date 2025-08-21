@@ -10,7 +10,9 @@ function ProjectCard({ project }) {
                 <img src={image} alt={title} />
             </div>
             <div className="project-content">
-                <h3 className="project-title">{title}</h3>
+                <h3 className="project-title">
+                    <a href={project.url || "#"} className="project-title-link" target="_blank" rel="noopener noreferrer">{title}</a>
+                </h3>
                 <p className="project-description">{description}</p>
                 <div className="project-languages">
                     {languages.map((lang, index) => (
