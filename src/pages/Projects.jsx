@@ -7,7 +7,7 @@ function Projects() {
         {
             image: "/images/val.webp",
             title: "VCT Match Predictor",
-            description: "A full-stack VCT match predictor built with React and Vite. Features smooth navigation, project showcase, and clean design.",
+            description: "A full-stack VCT match predictor built with React and Flask. Predictions use a random forest classification model trained on historical data.",
             url: "https://github.com/terrdv/VCT-Outcome-Predictor-Website",
             languages: [
                 { name: "React", color: "red" },
@@ -21,7 +21,7 @@ function Projects() {
         {
             image: "/images/careerOS.png",
             title: "careerOS",
-            description: "A full-stack career management application with user authentication, resume analysis, mock interviews, and skill-based job recommendations.",
+            description: "A full-stack JavaScript application with user authentication, resume analysis, mock interviews, and skill-based job recommendations. Powered by AWS Bedrock and built during the UBC CIC GenAI Summer Hackathon 2025",
             url: "https://github.com/terrdv/GenAI_CIC_Hackathon_CareerOS",
             languages: [
                 { name: "Node.js", color: "green" },
@@ -34,7 +34,7 @@ function Projects() {
         {
             image: "/images/pp.webp",
             title: "Portfolio Website",
-            description: "A modern, responsive portfolio website built with React and Vite. Features smooth navigation, project showcase, and clean design.",
+            description: "A modern, responsive portfolio website built with React. Features smooth navigation, project showcase, and clean design.",
             url: "https://github.com/terrdv/myportfolio",
             languages: [
                 { name: "React", color: "red" },
