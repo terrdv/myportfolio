@@ -31,7 +31,7 @@ function Projects() {
             ]
         },
         {
-            image: "/images/image.webp", // Using your existing image as placeholder
+            image: "/images/pp.webp", // Using your existing image as placeholder
             title: "Portfolio Website",
             description: "A modern, responsive portfolio website built with React and Vite. Features smooth navigation, project showcase, and clean design.",
             languages: [
