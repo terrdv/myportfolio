@@ -90,12 +90,12 @@
   
   .nav-links a:hover {
     color: var(--primary-color);
-    background-color: rgba(100, 108, 255, 0.1);
+    background-color: rgba(59, 130, 246, 0.1);
   }
   
   .nav-links a.active {
     color: var(--primary-color);
-    background-color: rgba(100, 108, 255, 0.15);
+    background-color: rgba(59, 130, 246, 0.15);
   }
   
   /* Mobile menu button */

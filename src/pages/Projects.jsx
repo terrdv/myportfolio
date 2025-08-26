@@ -32,6 +32,18 @@ function Projects() {
             ]
         },
         {
+            image: "/images/eaea.webp",
+            title: "Better Reviews",
+            description: "Chrome extension that uses OpenAI API to analyze reviews of Amazon products and provide a summary of the product.",
+            url: "https://github.com/terrdv/better_reviews",
+            languages: [
+                { name: "JavaScript", color: "green" }, 
+                { name: "CSS", color: "#1572b6" },
+                { name: "HTML", color: "#e34f26" },
+                { name: "OpenAI API", color: "pink" }
+            ]
+        },
+        {
             image: "/images/pp.webp",
             title: "Portfolio Website",
             description: "A modern, responsive portfolio website built with React. Features smooth navigation, project showcase, and clean design.",
@@ -49,7 +61,7 @@ function Projects() {
         <div className="projects-page">
             <h1>My Projects</h1>
             <p className="projects-intro">
-                Here are some of the projects I've worked on. Each one represents different skills and technologies I've learned along the way.
+                Here are some of the projects I've worked on!
             </p>
             <ProjectsList projects={projects} />
         </div>

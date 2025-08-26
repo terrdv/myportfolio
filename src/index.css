@@ -11,8 +11,8 @@
     -moz-osx-font-smoothing: grayscale;
     
     /* Custom properties for consistent theming */
-    --primary-color: #646cff;
-    --primary-hover: #535bf2;
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
     --text-primary: rgba(255, 255, 255, 0.87);
     --text-secondary: rgba(255, 255, 255, 0.6);
     --background-primary: #1a1a1a;
@@ -151,8 +151,8 @@
       color: #213547;
       background-color: #ffffff;
       
-      --primary-color: #646cff;
-      --primary-hover: #535bf2;
+      --primary-color: #3b82f6;
+      --primary-hover: #2563eb;
       --text-primary: #213547;
       --text-secondary: #64748b;
       --background-primary: #ffffff;
