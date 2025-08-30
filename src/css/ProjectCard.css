@@ -6,7 +6,7 @@
     overflow: hidden;
     transition: all 0.3s ease;
     margin-bottom: 24px;
-    animation: slideUp 0.6s ease-out both;
+    animation: slideUp 0.3s ease-out 0.1s both;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -64,7 +64,7 @@
     height: 2px;
     background-color: var(--primary-color);
     border-radius: 2px;
-    transition: width 0.3s ease;
+    transition: width 0.15s ease;
 }
 
 .project-title:hover::after {
