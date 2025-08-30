@@ -10,12 +10,12 @@ function Projects() {
             description: "A full-stack VCT match predictor built with React and Flask. Predictions use a random forest classification model trained on historical data.",
             url: "https://github.com/terrdv/VCT-Outcome-Predictor-Website",
             languages: [
-                { name: "React", color: "red" },
-                { name: "JavaScript", color: "green" }, 
+                { name: "React", color: "#61dafb" },
+                { name: "JavaScript", color: "#f7df1e" }, 
                 { name: "CSS", color: "#1572b6" },
                 { name: "HTML", color: "#e34f26" },
-                { name: "Python", color: "blue" },
-                { name: "Flask", color: "grey" }
+                { name: "Python", color: "#3776ab" },
+                { name: "Flask", color: "#000000" }
             ]
         },
         {
@@ -24,11 +24,12 @@ function Projects() {
             description: "A full-stack JavaScript application with user authentication, resume analysis, mock interviews, and skill-based job recommendations. Powered by AWS Bedrock and built during the UBC CIC GenAI Summer Hackathon 2025",
             url: "https://github.com/terrdv/GenAI_CIC_Hackathon_CareerOS",
             languages: [
-                { name: "Node.js", color: "green" },
-                { name: "Express", color: "black" },
+                { name: "React", color: "#61dafb" },
+                { name: "JavaScript", color: "#f7df1e" },
+                { name: "Node.js", color: "#339933" },
                 { name: "Supabase", color: "#4db33d" },
-                { name: "React", color: "red" },
-                { name: "AWS", color: "orange" }
+                { name: "AWS", color: "#ff9900" },
+                { name: "Express", color: "#000000" }
             ]
         },
         {
@@ -37,10 +38,10 @@ function Projects() {
             description: "Chrome extension that uses OpenAI API to analyze reviews of Amazon products and provide a summary of the product.",
             url: "https://github.com/terrdv/better_reviews",
             languages: [
-                { name: "JavaScript", color: "green" }, 
+                { name: "JavaScript", color: "#f7df1e" }, 
                 { name: "CSS", color: "#1572b6" },
                 { name: "HTML", color: "#e34f26" },
-                { name: "OpenAI API", color: "pink" }
+                { name: "OpenAI API", color: "#412991" }
             ]
         },
         {
@@ -49,8 +50,8 @@ function Projects() {
             description: "A modern, responsive portfolio website built with React. Features smooth navigation, project showcase, and clean design.",
             url: "https://github.com/terrdv/myportfolio",
             languages: [
-                { name: "React", color: "red" },
-                { name: "JavaScript", color: "green" }, 
+                { name: "React", color: "#61dafb" },
+                { name: "JavaScript", color: "#f7df1e" }, 
                 { name: "CSS", color: "#1572b6" },
                 { name: "HTML", color: "#e34f26" }
             ]

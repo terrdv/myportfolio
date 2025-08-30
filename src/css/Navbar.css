@@ -1,6 +1,6 @@
 /* Navbar.css - Modern Aesthetic Navbar */
 
-.navbar {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,6 +25,12 @@
     }
   }
   
+  .navbar-brand {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
   .navbar h3 {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     font-size: 1.8rem;
@@ -265,7 +271,29 @@
 
   .navigate {
     display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1.5rem;
     align-self: center;
+  }
+
+  .navigate a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: relative;
+    text-transform: capitalize;
+  }
+
+  .navigate a:hover {
+    color: var(--primary-color);
+    background-color: rgba(59, 130, 246, 0.1);
+  }
+
+  .navigate a.active {
+    color: var(--primary-color);
+    background-color: rgba(59, 130, 246, 0.15);
   }
